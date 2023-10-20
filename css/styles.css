@@ -112,7 +112,6 @@ ul {
 .address-ul {
   display: flex;
   gap: 40px;
-  column-gap: 40px;
 }
 
 .address .link {
@@ -127,9 +126,9 @@ ul {
 .address .link:focus {
   color: #404bbf;
 }
+
 /*-- section-1 --*/
 
-.hero-section {
 .hero-section .container {
   background-color: #2e2f42;
   padding: 188px 0;
@@ -148,6 +147,7 @@ ul {
   margin-left: auto;
   margin-right: auto;
 }
+
 .button {
   border: none;
   border-radius: 4px;
@@ -173,7 +173,9 @@ ul {
 .button:focus {
   background-color: #404bbf;
 }
+
 /*-- section-2 --*/
+
 .advantages-title {
   display: none;
 }
@@ -325,6 +327,7 @@ ul {
   letter-spacing: 0.02em;
   text-align: left;
 }
+
 .footer .logo-web {
   color: #f4f4fd;
 }
@@ -338,6 +341,7 @@ ul {
   color: #f4f4fd;
   max-width: 264px;
 }
+
 .nav-list a,
 .link,
 .button,
