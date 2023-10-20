@@ -49,6 +49,7 @@ ul {
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 /*logotype properties*/
@@ -258,10 +259,10 @@ ul {
   margin-bottom: 8px;
 }
 
-/*.our-team .title-li,
+.our-team .title-li,
 .our-team .text {
   text-align: center;
-}*/
+}
 
 .title-li {
   font-family: Roboto, sans-serif;
@@ -333,8 +334,9 @@ ul {
 }
 
 .footer .logo {
+  display: inline-block;
   height: 24px;
-  margin-bottom: 17.5px;
+  margin-bottom: 16px;
 }
 
 .footer .text {
