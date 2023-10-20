@@ -341,9 +341,9 @@ ul {
   margin-bottom: 16px;
 }
 
-/*.link-logo-disp {
-   display: inline-block
-}*/
+.link-logo-disp {
+  display: inline-block;
+}
 
 .footer .text {
   color: #f4f4fd;
