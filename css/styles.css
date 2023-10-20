@@ -337,9 +337,12 @@ ul {
 }
 
 .footer .link-logo {
-  display: inline-block;
   height: 24px;
   margin-bottom: 16px;
+}
+
+.link-logo-disp {
+  display: inline-block;
 }
 
 .footer .text {
