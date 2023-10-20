@@ -341,8 +341,8 @@ ul {
   margin-bottom: 16px;
 }
 
-.link-logo-disp {
-  display: inline-block;
+.logo-disp {
+  display: block;
 }
 
 .footer .text {
