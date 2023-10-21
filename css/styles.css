@@ -357,13 +357,11 @@ ul {
   color: #4d5ae5;
   text-decoration: none;
   letter-spacing: 0.03em;
-  /*height: 24px;*/
+  display: inline-block;
   margin-bottom: 16px;
 }
 
-.logo-disp {
-  display: block;
-}
+
 
 .footer .text {
   color: #f4f4fd;
