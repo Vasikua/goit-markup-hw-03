@@ -332,12 +332,32 @@ ul {
   text-align: left;
 }
 
-.footer .link-logo-studio {
+.footer-link-logo-studio {
   color: #f4f4fd;
 }
 
-.footer .link-logo {
-  height: 24px;
+.footer-link-logo:hover:hover {
+}
+
+.footer-link-logo:focus:focus {
+  color: #404bbf;
+}
+
+.footer-link-logo-studio {
+  color: #f4f4fd;
+}
+
+.footer-link-logo {
+  margin-right: 76px;
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  color: #4d5ae5;
+  text-decoration: none;
+  letter-spacing: 0.03em;
+  /*height: 24px;*/
   margin-bottom: 16px;
 }
 
