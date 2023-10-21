@@ -333,10 +333,12 @@ ul {
 }
 
 .footer-link-logo-studio {
+  color: #404bbf;
   color: #f4f4fd;
 }
 
 .footer-link-logo:hover:hover {
+  color: #404bbf;
 }
 
 .footer-link-logo:focus:focus {
@@ -344,10 +346,12 @@ ul {
 }
 
 .footer-link-logo-studio {
+  display: inline-block;
   color: #f4f4fd;
 }
 
 .footer-link-logo {
+  display: inline-block;
   margin-right: 76px;
   text-transform: uppercase;
   font-family: 'Raleway', sans-serif;
