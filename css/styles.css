@@ -43,7 +43,7 @@ ul {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  justify-content: space-between;
+  /*justify-content: space-between;*/
 }
 
 /*navigation properties*/
@@ -82,11 +82,13 @@ ul {
 .nav-ul {
   gap: 40px;
   display: flex;
+  margin-right: 300px;
 }
 
 .nav-list a {
-  padding: 24px 0;
-  /*list-style-type: none;*/
+  /*display: flex;
+  flex-direction: column;
+  padding: 24px 0;*/
   letter-spacing: 0.02em;
   font-size: 16px;
   line-height: 1.5;
@@ -119,6 +121,7 @@ ul {
 .address .link {
   color: #434455;
   letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
 .address .link:hover {
@@ -337,17 +340,19 @@ ul {
   color: #f4f4fd;
 }
 
-.footer-link-logo:hover:hover {
+.footer-link-logo:hover {
   color: #404bbf;
 }
 
-.footer-link-logo:focus:focus {
+.footer-link-logo:focus {
   color: #404bbf;
 }
 
 .footer-link-logo-studio {
-  display: inline-block;
   color: #f4f4fd;
+}
+.logo-disp {
+  display: inline-block;
 }
 
 .footer-link-logo {
@@ -363,9 +368,7 @@ ul {
   letter-spacing: 0.03em;
   margin-bottom: 16px;
 }
-.logo-disp {
-  display: inline-block;
-}
+
 .footer .text {
   color: #f4f4fd;
   max-width: 264px;
