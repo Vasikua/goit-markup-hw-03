@@ -322,10 +322,6 @@ ul {
   background-color: #2e2f42;
 }
 
-.footer .container {
-  flex-direction: column;
-}
-
 .footer .text {
   color: #ffffff;
   font-family: Roboto, sans-serif;
