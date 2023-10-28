@@ -37,9 +37,11 @@ ul {
   padding-bottom: 24px;
   align-items: center;
 }
+.header .container {
+  display: flex;
+}
 
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -346,9 +348,6 @@ ul {
 
 .footer-link-logo-studio {
   color: #f4f4fd;
-}
-.logo-disp {
-  display: inline-block;
 }
 
 .footer-link-logo {
